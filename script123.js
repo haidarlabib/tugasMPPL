@@ -1,7 +1,7 @@
 // fungsi pemanggilan API dan menampilkan hasil menggunakan fetch
 function eduNews(){
     const inputKeyword = document.querySelector('.input-keyword');
-    fetch('https://newsapi.org/v2/everything?apiKey=e78496aa34f54687b5fb824a75ebf5d3&q=' + inputKeyword.value)
+    fetch('https://newsapi.org/v2/everything?apiKey=33be5113d77b4e6788fd641c1cf02ed2=' + inputKeyword.value)
     .then(res => res.json())
     .then(function(res){
       if(res.totalResults > 0){
