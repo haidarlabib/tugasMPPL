@@ -27,7 +27,7 @@ window.addEventListener("scroll", () => {
 
 // fetching news data from a website providing api
 
-const apiKey = "9f3d82a77c424457aa8f8a440fd716e7";
+const apiKey = "33be5113d77b4e6788fd641c1cf02ed2";
 
 const fetchData = async (category, pageSize) => {
   const url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&pageSize=${pageSize}&apiKey=${apiKey}`;
