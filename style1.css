@@ -1,0 +1,128 @@
+
+/* Footer */
+.footer {
+    width: 100%;
+    padding: 50px 50px 0px;
+    background-color: #21409a;
+    min-height: 200px;
+
+    margin-top: 7%;
+  }
+  
+  .footer .box {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+  }
+  
+  .footer .box .left {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+  }
+  
+  .footer .box .left .categories > p {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .footer .box .left .categories div {
+    margin-bottom: 15px;
+    width: max-content;
+  }
+  
+  .footer .box .left .categories div p {
+    font-size: 20px;
+    color: #ddd;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: 0.3s;
+    font-weight: 500;
+  }
+  
+  .footer .box .left .categories div p:hover {
+    color: #ffb600;
+  }
+  
+  .footer .contact {
+    margin-left: 10px;
+    color: #fffefe;
+  }
+  .footer .contact p {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .footer .contact div {
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #e6dbdb;
+  }
+  
+  .footer .icon {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .footer .icon i {
+    font-size: 25px;
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .footer .icon i:hover {
+    color: #ffb600;
+    transform: scale(1.2);
+  }
+  
+  .footer .newsletter p {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .footer .newsletter .email {
+    display: flex;
+  }
+  .footer .newsletter .email input {
+    width: 400px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  
+  .footer .newsletter .email button {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    border-color: transparent;
+    border-style: solid;
+    color: #141824;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .footer .copyrights {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+    color: #ffb600;
+  }
+  
+  .footer .newsletter .email button:hover {
+    color: #fff;
+    background-color: #ffb600;
+  }
+  /* End Footer */
+  
